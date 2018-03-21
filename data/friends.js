@@ -17,4 +17,4 @@ var friendsArray = [
       }
 ]
 
-moudle.exports = friendsArray;
+module.exports = friendsArray;

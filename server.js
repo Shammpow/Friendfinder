@@ -5,8 +5,8 @@ var app = express();
 
 var PORT = process.env.PORT || 8000;
 
-app.use(BodyParser.urlencoded({ extended: false }));
-app.use(BodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
